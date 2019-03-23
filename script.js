@@ -49,3 +49,4 @@ function shuffle() {
     })
 }
 cards.forEach(card => card.addEventListener("click", flipCard));
+shuffle()
